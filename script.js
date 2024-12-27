@@ -1,7 +1,7 @@
 //your JS code here. If required.
 let elem=document.getElementById("level");
 let count=1;
-if(elem.parentElement){
+while(elem.parentElement){
 	count++;
 	elem=elem.parentElement;
 }
